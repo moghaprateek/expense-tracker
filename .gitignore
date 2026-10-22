@@ -1,0 +1,24 @@
+# Build output
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+
+# Local databases, logs, secrets
+*.mv.db
+*.trace.db
+*.log
+.env
+.env.*
+application-local.yml
